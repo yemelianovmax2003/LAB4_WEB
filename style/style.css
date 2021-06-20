@@ -1,0 +1,385 @@
+/*My fonts*/
+
+@import url(fonts.css);
+/* 
+My settings
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+/**
+Header start
+**/
+
+.header {
+    background: #fff;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+    position: relative;
+}
+
+.header__name-student {
+    width: 225px;
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.btn__div {
+    position: absolute;
+    width: 50px;
+    top: 25px;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+.btn__div-item {
+    height: 5px;
+    background: #000;
+    margin-bottom: 10px;
+}
+
+.header__menu-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.header__menu-link {
+    margin-right: 60px;
+}
+
+.header__menu-link a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.header__menu-link a:hover {
+    padding-right: 20px;
+    border-bottom: 4px solid rgba(94, 94, 94, 0.596);
+    transition: .2s;
+    animation-duration: 2s;
+}
+
+/**
+Header end
+**/
+
+/**
+scary-block start
+**/
+
+.scary__font-block {
+    background: url(../img/img__scary__block.jpg), url(../img/lighting_scary-block.png);
+    height: 650px;
+    background-position: 0% 50%, 100% 5%;
+    background-size: 650px, 260px;
+    background-repeat: no-repeat;
+    background-color: #040410;
+}
+
+.scary__font-block__inner {
+    display: flex;
+    position: relative;
+}
+
+.scary__font-descr {
+    color: #FFFFFF;
+    width: 380px;
+    height: 90px;
+    position: absolute;
+    top: 190px;
+    right: 90px;
+}
+
+.scary__font-descr__title {
+    font-family: 'Castileo Medium', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 160%;
+    margin-bottom: 35px;
+}
+
+.scary__font-descr__text1, .scary__font-descr__text2 {
+    font-family: "DHFStoryBrush", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.scary__font-descr__text1 {
+    margin-bottom: 25px;
+}
+
+/**
+scary-block end
+**/
+
+/**
+funny-block start
+**/
+
+.funny__font-block {
+    padding: 155px 0 400px;
+    background-image: url(../img/funny-block_dog__1.png), url(../img/funny-block_dog__2.png), url(../img/funny-block_dog__3.png);
+    background-position: 0% 100%, 50% 100%, 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+.funny__font-block__title {
+    font-family: "DisneyPark", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.funny__font-block__descr {
+    font-family: 'FunnyCute', sans-serif;
+    max-width: 535px;
+    height: 90px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+/**
+funny-block end
+**/
+
+/**
+angry-block start
+**/
+
+.angry__font-block {
+    position: relative;
+    padding: 165px 0;
+    background-image: url(../img/angry-block_angryman__1.png), url(../img/angry-block_angryman__2.png), url(../img/angry-block_angryman__3.png);
+    background-position: 50% -35%, 86% 115%, 100% -50%;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: #AD4220;
+}
+
+.angry__font-block__descr-title {
+    font-family: 'TelegraphLine', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    max-width: 368px;
+    margin-bottom: 35px;
+}
+
+.angry__font-block__descr-text1, .angry__font-block__descr-text2 {
+    font-family: 'AngryBirdsMovie', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 160%;
+    max-width: 405px;
+}
+
+.angry__font-block__descr-text2 {
+    margin-top: 25px;
+}
+
+/**
+angry-block end
+**/
+
+/**
+romantic-block start
+**/
+
+.romantic__font-block {
+    padding: 140px 0;
+    background-image: url(../img/romantic-block_plant_left.png), url(../img/romantic-block_plant_right.png);
+    background-position: -1% 103%, 100% -20%;
+    background-repeat: no-repeat;
+    background-size: 101px 303px, 190px 320px;
+    background-color: #fff;
+}
+
+.romantic__font-block__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.romantic__font-block__descr {
+    margin: 42px 40px 0 0;
+    max-width: 425px;
+    color: #484848;
+}
+
+.romantic__font-block__descr-title {
+    font-family: 'Romul', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.romantic__font-block__descr-text1, .romantic__font-block__descr-text2 {
+    font-family: 'FallIsComing', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 160%;
+}
+
+.romantic__font-block__descr-text2 {
+    margin-top: 27px;
+}
+
+.romantic__font-block__descr-img {
+    display: flex;
+}
+
+.romantic__font-block__descr-img1 {
+    margin-right: 63px;
+    margin-left: 45px;
+}
+
+.romantic__font-block__descr-img2 {
+    margin-top: 67px;
+}
+
+/**
+romantic-block end
+**/
+
+/**
+bussines-block start
+**/
+
+.business__font-block {
+    background-image: url(../img/business-block_bg.png);
+    height: 650px;
+    background-size: 593px;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: #44484A;
+}
+
+.business__font-block__inner {
+    position: relative;
+}
+
+.business__font-block__descr {
+    position: absolute;
+    right: -15px;
+    top: 180px;
+}
+
+.business__font-block__title {
+    font-family: 'CopyrightHouse', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    margin-bottom: 60px;
+}
+
+.business__font-block__descr__text-part1 {
+    display: flex;
+}
+
+.business__font-block__descr__text1 {
+    margin-right: 32px;
+}
+
+.business__font-block__descr__text1, .business__font-block__descr__text2 {
+    font-family: 'Pricedown', sans-serif;
+    max-width: 269px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.business__font-block__descr__text-part2 {
+    font-family: 'Primetime', sans-serif;
+    max-width: 510px;
+    height: 52px;
+    display: flex;
+}
+
+.business__font-block__descr__text3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    font-style: italic;
+    margin-top: 44px;
+}
+
+.business__font-block__descr__symbol {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/**
+bussines-block end
+**/
+
+/**
+footer-block start
+**/
+
+.footer__remark {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4D4D4D;
+}
+
+/**
+footer-block end
+**/
